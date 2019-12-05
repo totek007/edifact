@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="org.edifree.edifact.class-creator.main" target="1.8" />
+      <module name="org.edifree.edifact.class-creator.test" target="1.8" />
+      <module name="org.edifree.edifact.d96a-orders.main" target="1.8" />
+      <module name="org.edifree.edifact.d96a-orders.test" target="1.8" />
+      <module name="org.edifree.edifact.d96a.main" target="1.8" />
+      <module name="org.edifree.edifact.d96a.test" target="1.8" />
+      <module name="org.edifree.edifact.invoic.main" target="1.8" />
+      <module name="org.edifree.edifact.invoic.test" target="1.8" />
+      <module name="org.edifree.edifact.main.main" target="1.8" />
+      <module name="org.edifree.edifact.main.test" target="1.8" />
+      <module name="org.edifree.edifact.orders.main" target="1.8" />
+      <module name="org.edifree.edifact.orders.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

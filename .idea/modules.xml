@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/d96a-orders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/d96a-orders.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/edifact.iml" filepath="$PROJECT_DIR$/.idea/edifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.class-creator.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.class-creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.invoic.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.invoic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.orders.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.test.iml" filepath="$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.test.iml" />
+    </modules>
+  </component>
+</project>

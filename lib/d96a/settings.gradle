@@ -1,0 +1,4 @@
+rootProject.name = 'd96a'
+include 'orders'
+include 'invoic'
+
