@@ -1,513 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb132736-bd34-45c4-8dad-a06a8c0cdcc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/edifact.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/invoic/org.edifree.edifact.invoic.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/main/d96a-orders.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/orders/org.edifree.edifact.orders.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.class-creator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.invoic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.main.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.orders.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/Invoic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/invoic/src/main/java/org/edifree/edifact/version/d96a/message/invoic/SegmentGroup9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AccountIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AdditionalSafetyInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AddressDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AddressUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AgreementTypeIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AllowanceChargeInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ApplicationErrorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ArrayCellDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ArrayStructureIdentificationC779.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AttributeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/AttributeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/BankOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/BillLevelIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/BusinessFunctionC521.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Carrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CharacteristicValueC889.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Charge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ChargeAllowanceAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ChargeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CodeSetIdentificationC702.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CommodityRateDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CommunicationContactC076.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ComponentMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ComputerEnvironmentIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ContractAndCarriageCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ContributionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CountrySubentityDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CurrencyDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/CustomsIdentityCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DamageArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DamageSeverity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DangerousGoodsLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DangerousGoodsShipmentFlashpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DataSetIdentificationC782.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DateTimePeriodC507.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DepartmentOrEmployeeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DimensionsC211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DocumentMessageDetailsC503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DocumentMessageName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DutyTaxFeeAccountDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DutyTaxFeeDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/DutyTaxFeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/EmploymentCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/EquipmentIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/EquipmentSizeAndType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ErrorPointDetailsC701.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ExcessTransportationInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/FileDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/FileIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/FootnoteIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/FootnoteSetIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/FrequencyDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/GovernmentAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/HandlingInstructionsC524.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/HazardCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/HazardIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/HazardousMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/IdentificationNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/IdentityNumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/IndexIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/IndexValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/InformationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/InstitutionIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Instruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/InsuranceCoverDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/InsuranceCoverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ItemDescriptionC273.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ItemNumberIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/LanguageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/LocationIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MaritalStatusDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MarksAmpLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MeasurementDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MembershipCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MembershipLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MembershipStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MessageIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MethodOfPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ModeOfTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MonetaryAmountC516.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MonetaryFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/MovementType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NameAndAddressC058.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NameComponentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NationalityDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NatureOfCargoC703.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NumberAndTypeOfPackages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/NumberOfUnitDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Occupation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PackageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PackageTypeIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PackagingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PartiesToInstructionC849.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PartyIdentificationDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PartyNameC080.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PatternDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PaymentInstructionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PaymentTerms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PercentageDetailsC501.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PersonInheritedCharacteristicDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PhysicalOrLogicalStateInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PositionIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PriceInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PriceMultiplierInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/PriorityDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ProcessTypeAndDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ProcessingIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ProductCharacteristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ProductGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/QualificationClassification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/QuantityDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/QuantityDifferenceInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RateDetailsC128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RateTariffClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RateTariffClassDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ReasonForChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ReferenceC506.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RelatedLocationOneIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RelatedLocationTwoIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RelationshipC941.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ReligionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RemunerationTypeIdentificationC049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/RequirementConditionIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ReturnablePackageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SafetySection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SalesChannelIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SampleLocationDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SealIssuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SequenceInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SizeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SpecialServicesIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatisticalConceptIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatisticalDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatusEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatusOfInstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatusOfTheTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatusReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StatusType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/StructureComponentIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/SublineInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TemperatureSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TermsOfDeliveryOrTransportC100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TermsTimeInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TestMethodC244.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TestReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TextLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TextReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TransportIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TransportMeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TransportPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TypeOfDamage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TypeOfMarking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/TypeOfUnitComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/UndgInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ValueListIdentificationC780.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/field/ValueRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AdditionalInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AdditionalPriceInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AdditionalProductId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AdjustmentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AgreementIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AllowanceOrCharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AmountsRelationshipDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ApplicationErrorInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ArrayInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ArrayStructureIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AttachedEquipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Attribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/AuthenticationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/BeginningOfMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/BusinessFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CharacteristicClassId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CharacteristicValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ChargePaymentInstructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CodeSetIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CodeValueDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CommunicationContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ComponentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CompositeDataElementIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ComputerEnvironmentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ConsignmentInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ConsignmentPackingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ContactInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ContributionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ControlTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CreditCoverDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Currencies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/CustomsStatusOfGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Damage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DangerousGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DataElementUsageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DataSetIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DateTimePeriod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DeliveryLimitations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DetailsOfTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DirectoryIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DocumentLineIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DocumentMessageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DocumentMessageSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/DutyTaxFeeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/EmploymentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/EquipmentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ErrorPointDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ExternalFileLinkIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/FinancialChargesAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/FinancialInstitutionInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Footnote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/FootnoteSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/FreeText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/GeneralIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/GoodsIdentityNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/GoodsItemDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/GovernmentalRequirements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/HandlingInstructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Identity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/IndexDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/InformationRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/InsuranceCoverDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/InventoryManagementRelatedDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ItemDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MarketSalesChannelInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Measurements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MembershipDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MessageHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MessageTrailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MessageTypeIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/MonetaryAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/NameAndAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Nationality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/NatureOfCargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/NumberOfUnits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PackageIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PackageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PartiesToInstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PartyName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PaymentInstructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PaymentTermsBasis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PercentageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PersonCharacteristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PersonDemographicInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PhysicalOrLogicalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PhysicalSampleDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PlaceLocationIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/PriceDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ProcessIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ProductGroupInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Quantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/QuantityVariances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/RangeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/RateDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Reference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/RelatedIdentificationNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Relationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/RemunerationTypeIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/RequirementsAndConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SafetyInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SamplingParametersForSummaryStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SchedulingConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SealNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SectionControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SegmentGroupUsageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SegmentIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SegmentUsageDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SequenceDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SimpleDataElementDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/SplitGoodsPlacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Stages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/StatisticalConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/StructureComponentDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/StructureIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TermsOfDeliveryOrTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TransportChargeRateCalculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TransportMovementDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TransportPlacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/TransportServiceRequirements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/d96a/src/main/java/org/edifree/edifact/version/d96a/segment/ValueListIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/ClassGeneratorFromSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/FileCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/HtmlSourceDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/SocketConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/MapInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/class-creator/src/main/java/org/edifree/edifact/main/creator/objects/Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/Edifact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/annotations/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/annotations/Mandatory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/annotations/MaxChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/annotations/TagName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/Decimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/EdifactList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/EdifactSyntaxVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/EdifactType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/EdifactVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/MessageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/ObjectHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/custom_object/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/exception/EdifactLibraryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/exception/EdifactValidateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/parser/EdifactCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/parser/EdifactParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/all/parser/EdifactValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/Edifact30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/una/InterchangeDelimiters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/DateAndTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/InterchangeHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/Recipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/RecipientsReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unb/SyntaxIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/MessageHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/MessageIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/MessageImplementationGuidelineId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/MessageSubsetIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/ScenarioIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unh/StatusOfTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unt/MessageTrailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v3_0/unz/InterchangeTrailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/Edifact41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/una/InterchangeDelimiters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/DateAndTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/InterchangeHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/Recipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/RecipientsReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unb/SyntaxIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/MessageHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/MessageIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/MessageImplementationGuidelineId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/MessageSubsetIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/ScenarioIdentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unh/StatusOfTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unt/MessageTrailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/edifree/edifact/main/syntax/v4_1/unz/InterchangeTrailer.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb132736-bd34-45c4-8dad-a06a8c0cdcc8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/lib/d96a-orders/.gradle/" />
     <ignored path="$PROJECT_DIR$/lib/d96a-orders/build/" />
     <ignored path="$PROJECT_DIR$/lib/d96a-orders/out/" />
@@ -619,8 +113,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -709,98 +206,7 @@
             <path>
               <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
               <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="d96a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="invoic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="d96a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="invoic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="d96a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="orders" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="d96a" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="orders" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="class-creator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="class-creator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="class-creator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="class-creator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="class-creator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="creator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="edifact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edifact" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -811,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575543841070" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575543923831" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -852,6 +258,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in edifact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="edifact" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -875,6 +290,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in edifact" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -886,12 +306,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575538500576</updated>
-      <workItem from="1575538503044" duration="4453000" />
+      <workItem from="1575538503044" duration="4740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4453000" />
+    <option name="totallyTimeSpent" value="4740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1219,8 +639,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/d96a/orders/src/main/java/org/edifree/edifact/version/d96a/message/orders/SegmentGroup13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
