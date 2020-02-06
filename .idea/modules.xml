@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/d96a-orders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/d96a-orders.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/edifact.iml" filepath="$PROJECT_DIR$/.idea/edifact.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.class-creator.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.class-creator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/org.edifree.edifact.class-creator.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/class-creator/main.class-creator.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.edifree.edifact.d96a-orders.test.iml" />

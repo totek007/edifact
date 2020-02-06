@@ -4,13 +4,13 @@
  */
 package org.edifree.edifact.main.all.parser;
 
-import org.edifree.edifact.main.*;
+import org.edifree.edifact.main.Edifact;
 import org.edifree.edifact.main.all.annotations.TagName;
 import org.edifree.edifact.main.all.custom_object.*;
 import org.edifree.edifact.main.all.exception.EdifactLibraryException;
 import org.edifree.edifact.main.syntax.v3_0.Edifact30;
 import org.edifree.edifact.main.syntax.v4_1.Edifact41;
-import org.edifree.edifact.main.version.d10a.message.orders.Orders;
+import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -21,17 +21,12 @@ import java.util.Collection;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * @author Rafal Paszkowski
  */
+@Slf4j
 public class EdifactParser {
-
-    private enum DataType {
-        SEGMENT, FIELD, COMPONENT, UNKNOWN;
-    }
 
     private final Helper helper;
 
@@ -43,7 +38,7 @@ public class EdifactParser {
         this.helper = new Helper(content);
     }
 
-    public Edifact parse() throws IllegalArgumentException, IllegalAccessException, InstantiationException, EdifactLibraryException {
+    public Edifact parse() throws IllegalArgumentException, IllegalAccessException, InstantiationException, EdifactLibraryException, InvocationTargetException {
         Edifact edifact = getEdifact(helper.edifactSyntaxVersion);
         parse(edifact, DataType.UNKNOWN);
         return edifact;
@@ -60,25 +55,18 @@ public class EdifactParser {
         }
     }
 
-    private void parse(Object parentObject, DataType nextData) throws IllegalArgumentException, IllegalAccessException, InstantiationException {
+    private void parse(Object parentObject, DataType nextData) throws IllegalArgumentException, IllegalAccessException, InstantiationException, InvocationTargetException {
         for (Field field : parentObject.getClass().getDeclaredFields()) {
-            parseSingleField(field,parentObject,nextData);
+            parseSingleField(field, parentObject, nextData);
         }
     }
 
-    private void parseSingleField(Field field,Object parentObject, DataType nextData) throws InstantiationException, IllegalAccessException {
+    private void parseSingleField(Field field, Object parentObject, DataType nextData) throws InstantiationException, IllegalAccessException, InvocationTargetException {
         field.setAccessible(true);
         if (itIsNextSegment(field)) {
             setSegment(field, parentObject);
             return;
         }
-
-                    if(field.getType().isAnnotationPresent(TagName.class)){
-                if(field.getType().getAnnotation(TagName.class).value().equals("UNS")){
-                    System.out.println("!!!");
-                }
-
-            }
         switch (nextData) {
             case FIELD:
                 setField(field, parentObject);
@@ -92,12 +80,11 @@ public class EdifactParser {
         }
     }
 
-
     private boolean itIsNextSegment(Field field) {
         return field.getType().isAnnotationPresent(TagName.class);
     }
 
-    private void setSegment(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException {
+    private void setSegment(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException, InvocationTargetException {
         helper.setNextLine(getSegmentName(field));
 
         if (itIsList(field)) {
@@ -106,7 +93,7 @@ public class EdifactParser {
                 Object newInstance = createInstance(field);
                 try {
                     parse(newInstance, DataType.FIELD);
-                } catch (InstantiationException | IllegalAccessException ex) {
+                } catch (InstantiationException | IllegalAccessException | InvocationTargetException ex) {
                     Logger.getLogger(EdifactParser.class.getName()).log(Level.SEVERE, null, ex); //TODO !!!!
                 }
                 list.add(newInstance);
@@ -116,7 +103,7 @@ public class EdifactParser {
                 field.set(parentObject, null);
             }
         }
-        Object newInstance = field.getType().newInstance();
+        Object newInstance = getDefaultConstructor(field.getType().getConstructors()).newInstance();
         parse(newInstance, DataType.FIELD);
         if (isObjectEmpty(newInstance)) {
             field.set(parentObject, null);
@@ -140,7 +127,7 @@ public class EdifactParser {
         return false;
     }
 
-    private void setField(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException {
+    private void setField(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException, InvocationTargetException {
         switch (field.getType().getSimpleName()) {
             case "String": {
                 setFieldString(field, parentObject);
@@ -152,7 +139,7 @@ public class EdifactParser {
             }
             default: {
                 helper.increaseField();
-                Object newInstance = field.getType().newInstance();
+                Object newInstance = getDefaultConstructor(field.getType().getConstructors()).newInstance();
                 parse(newInstance, DataType.COMPONENT);
                 field.set(parentObject, newInstance);
             }
@@ -176,7 +163,7 @@ public class EdifactParser {
         }
     }
 
-    private void setComponent(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException {
+    private void setComponent(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException, InvocationTargetException {
         String value = helper.getNextComponentValue();
 
         switch (field.getType().getSimpleName()) {
@@ -196,7 +183,7 @@ public class EdifactParser {
             }
             default: {
                 helper.increaseField();
-                Object newInstance = field.getType().newInstance();
+                Object newInstance = getDefaultConstructor(field.getType().getConstructors()).newInstance();
                 parse(newInstance, DataType.COMPONENT);
                 if (isObjectEmpty(newInstance)) {
                     field.set(parentObject, null);
@@ -239,7 +226,7 @@ public class EdifactParser {
         return true;
     }
 
-    private void setNormalObject(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException {
+    private void setNormalObject(Field field, Object parentObject) throws IllegalArgumentException, IllegalAccessException, InstantiationException, InvocationTargetException {
         if (itIsList(field)) {
 
             final EdifactList list = ((EdifactList) field.get(parentObject));
@@ -252,9 +239,10 @@ public class EdifactParser {
                     } else {
                         parse(newInstance, DataType.UNKNOWN);
                     }
-                } catch (InstantiationException | IllegalAccessException ex) {
+                } catch (InstantiationException | IllegalAccessException | InvocationTargetException ex) {
                     Logger.getLogger(EdifactParser.class.getName()).log(Level.SEVERE, null, ex);  //TODO !!!!
                 }
+
                 list.add(newInstance);
             });
             list.remove(list.size() - 1);
@@ -265,9 +253,9 @@ public class EdifactParser {
 
         } else {
             if (itIsSimpleType(field)) {
-                System.out.println("Error. Probably, no segment tag in " + parentObject.getClass().getName());
+                log.warn("Error. Probably, no segment tag in " + parentObject.getClass().getName());
             }
-            Object newInstance = field.getType().newInstance();
+            Object newInstance = getDefaultConstructor(field.getType().getConstructors()).newInstance();
 //            field.set(parentObject, newInstance);
             parse(newInstance, DataType.SEGMENT);
             if (isObjectEmpty(newInstance)) {
@@ -289,56 +277,26 @@ public class EdifactParser {
     private Object createInstance(Field field) {
         Class parameterizedTypeClass = getClass((ParameterizedType) field.getGenericType());
         if (parameterizedTypeClass.equals(MessageObject.class)) {
+            String className = getClassName();
             try {
-
-                if (helper.edifactVersion.equals(EdifactVersion.D42) && helper.edifactType.equals(EdifactType.AUTACK)) {
-                    return getConstructor(org.edifree.edifact.main.version.all.message.autack.Autack.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01A) && helper.edifactType.equals(EdifactType.DESADV)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01a.message.desadv.Desadv.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01A) && helper.edifactType.equals(EdifactType.ORDERS)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01a.message.orders.Orders.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01A) && helper.edifactType.equals(EdifactType.ORDRSP )) {
-                    return getConstructor(org.edifree.edifact.main.version.d01a.message.ordrsp.Ordrsp.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01A) && helper.edifactType.equals(EdifactType.INVOIC)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01a.message.invoic.Invoic.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01B) && helper.edifactType.equals(EdifactType.DESADV)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01b.message.desadv.Desadv.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01B) && helper.edifactType.equals(EdifactType.ORDERS)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01b.message.orders.Orders.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01B) && helper.edifactType.equals(EdifactType.ORDRSP )) {
-                    return getConstructor(org.edifree.edifact.main.version.d01b.message.ordrsp.Ordrsp.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D01B) && helper.edifactType.equals(EdifactType.INVOIC)) {
-                    return getConstructor(org.edifree.edifact.main.version.d01b.message.invoic.Invoic.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D10A) && helper.edifactType.equals(EdifactType.ORDERS)) {
-                    return getConstructor(Orders.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D96A) && helper.edifactType.equals(EdifactType.ORDERS)) {
-                    return getConstructor(org.edifree.edifact.version.d96a.message.orders.Orders.class).newInstance();
-                }
-                if (helper.edifactVersion.equals(EdifactVersion.D95A) && helper.edifactType.equals(EdifactType.ORDERS)) {
-                    return getConstructor(org.edifree.edifact.main.version.d95a.message.orders.Orders.class).newInstance();
-                }
-                System.out.println("ERORR NIE DODANA KLASA W PARSERZE!!!!"); //TODO
-            } catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException ex) {
-                Logger.getLogger(EdifactParser.class.getName()).log(Level.SEVERE, null, ex);
+                return Class.forName(className).getDeclaredConstructor().newInstance();
+            } catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException | ClassNotFoundException | NoSuchMethodException ex) {
+                log.error(String.format("Unknown class for edifactVersion='%s' and edifactType='%s'.Searched class:'%s'",helper.edifactVersion.name(),helper.edifactType.name(),className));
             }
         }
-
         try {
-            return getConstructor(parameterizedTypeClass).newInstance();
-        } catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException ex) {
+            return parameterizedTypeClass.getDeclaredConstructor().newInstance();
+        } catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException | NoSuchMethodException ex) {
             //throw new Exception("Constructor coudn't be created. Error"+ex.getMessage());
         }
-        return null;
+        throw new RuntimeException("Something went wrong");//TODO rpaszkowski
+    }
+    private String getClassName(){
+        String edifactVersion = helper.edifactVersion.name().toLowerCase();
+        String edifactTypePackage =helper.edifactType.name().toLowerCase();
+        String edifactType =Character.toUpperCase(helper.edifactType.name().charAt(0)) + helper.edifactType.name().toLowerCase().substring(1);;
+
+        return String.format("biz.brammer.esb.lib.objects.edifact.version.%s.message.%s.%s",edifactVersion,edifactTypePackage,edifactType);
     }
 
     private Class getClass(ParameterizedType parameterizedType) {
@@ -355,9 +313,14 @@ public class EdifactParser {
                 return constructor;
             }
         }
-        return null;
+        return null;//TODO rpaszkowski - maybe better will be throw runtime exception?
     }
 
+
+
+    private enum DataType {
+        SEGMENT, FIELD, COMPONENT, UNKNOWN
+    }
 
     class Helper {
 
@@ -391,22 +354,22 @@ public class EdifactParser {
         }
 
         private void setLineList() {
-            List<String> list=new ArrayList<>();
+            List<String> list = new ArrayList<>();
 
-            StringBuilder sb=new StringBuilder();
-            for(String s : content.split(String.valueOf(setting.getNextSegmentSign()))){
+            StringBuilder sb = new StringBuilder();
+            for (String s : content.split(String.valueOf(setting.getNextSegmentSign()))) {
                 sb.append(s);
-                String test=s.substring(s.length()-1,s.length());
-                if(test.equals(String.valueOf(setting.getNextSpecialSign()))){
-                    sb.append(setting.getNextSpecialSign()+setting.getNextSegmentSign());
+                String test = s.substring(s.length() - 1, s.length());
+                if (test.equals(String.valueOf(setting.getNextSpecialSign()))) {
+                    sb.append(setting.getNextSpecialSign() + setting.getNextSegmentSign());
                     continue;
                 }
                 list.add(sb.toString());
                 sb.setLength(0);
             }
 
-            for(String s:list){
-                if(s.length()<4){
+            for (String s : list) {
+                if (s.length() < 4) {
                     continue;
                 }
                 if (s.contains("UNA")) {
@@ -415,7 +378,7 @@ public class EdifactParser {
                     try {
                         lineList.add(new LineElement(s.replaceAll("\n", "").trim(), setting));
                     } catch (EdifactLibraryException e) {
-                        e.printStackTrace();
+                        log.error("Edifact Library Exception", e);
                     }
                 }
             }
@@ -506,11 +469,11 @@ public class EdifactParser {
 
                 return results;
             } catch (java.lang.IndexOutOfBoundsException e) {
-                System.out.println("BLAD: " + actualLine.getName() + "," + indexField + "," + indexComponent); //TODO DODAC LOG!!!
-                // e.printStackTrace();
+                log.error("BLAD: " + actualLine.getName() + "," + indexField + "," + indexComponent, e); //TODO DODAC LOG!!!
                 return null;
             }
         }
+
     }
 
     class LineElement {
@@ -522,6 +485,12 @@ public class EdifactParser {
             this.text = getUnaText(setting);
             this.segmentName = getUnaSegmentName();
             setFieldUna(setting);
+        }
+
+        public LineElement(String text, Setting setting) throws EdifactLibraryException {
+            this.text = text + setting.getNextSegmentSign();
+            this.segmentName = getSegmentName(setting);
+            setFieldsList(setting);
         }
 
         private String getUnaText(Setting setting) {
@@ -542,26 +511,16 @@ public class EdifactParser {
             list.add(new FieldElement(setting.getIgnoreCRLF()));
         }
 
-        public LineElement(String text, Setting setting) throws EdifactLibraryException {
-            this.text = text + setting.getNextSegmentSign();
-            this.segmentName = getSegmentName(setting);
-            setFieldsList(setting);
-        }
-
         private String getSegmentName(Setting setting) throws EdifactLibraryException {
             try {
-                while(true){
+                while (true) {
                     int index = text.indexOf(setting.getNextFieldSign());
-                    if(text.indexOf(index-1)!=setting.getNextSpecialSign()){
+                    if (text.indexOf(index - 1) != setting.getNextSpecialSign()) {
                         return text.substring(0, index);
                     }
                 }
             } catch (StringIndexOutOfBoundsException | NullPointerException e) {
-                //TODO LOG
-                System.out.println("BLAD w lini " + text);
-                e.printStackTrace();
-                throw new EdifactLibraryException("BLAD w lini " + text);
-                //return null;
+                throw new EdifactLibraryException("BLAD w lini " + text, e);
             }
         }
 
