@@ -37,6 +37,7 @@ public class EdifactCreator {
 
     private void createEdifactText(Object parentObject, StringBuilder sb) throws Exception {
 
+
         for (Field field : parentObject.getClass().getDeclaredFields()) {
             field.setAccessible(true);
 

@@ -15,6 +15,8 @@ import org.edifree.edifact.main.all.parser.EdifactCreator;
 import org.edifree.edifact.main.all.parser.EdifactParser;
 import org.edifree.edifact.main.all.parser.EdifactValidator;
 
+import java.lang.reflect.InvocationTargetException;
+
 /**
  *
  * @author Rafal Paszkowski
@@ -22,6 +24,7 @@ import org.edifree.edifact.main.all.parser.EdifactValidator;
 
 @Data
 public class Edifact {
+
 
     protected Edifact() {
     }
@@ -37,7 +40,7 @@ public class Edifact {
     public static Edifact createObject(String text) throws EdifactLibraryException {
         try{
             return getEdifactParser(null, null,null, text).parse();
-        }catch(InstantiationException | IllegalAccessException ex){
+        }catch(InstantiationException | IllegalAccessException | InvocationTargetException ex){
             throw new EdifactLibraryException("Edifact create exception",ex);
         }
     }
@@ -45,7 +48,7 @@ public class Edifact {
     public static Edifact createObject(EdifactSyntaxVersion edifactSyntaxVersion, EdifactVersion edifactVersion, EdifactType edifactType, String text) throws EdifactLibraryException {
         try{
             return getEdifactParser(edifactSyntaxVersion, edifactVersion, edifactType, text).parse();
-        }catch(InstantiationException | IllegalAccessException ex){
+        }catch(InstantiationException | IllegalAccessException | InvocationTargetException ex){
             throw new EdifactLibraryException("Edifact create exception",ex);
         }
     }

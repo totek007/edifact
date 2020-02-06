@@ -49,30 +49,8 @@
       </state>
     </system>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>biz.brammer.esb.lib.objects.edifact.version.d96a.message</find>
-      <find>biz.brammer.esb.lib.objects.edifact.version.d96a</find>
-      <find>biz.brammer.esb.lib.objects.edifact</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>org.edifree.edifact.version.d96a.message.</replace>
-      <replace>org.edifree.edifact.version.d96a.message</replace>
-      <replace>org.edifree.edifact.version.d96a</replace>
-      <replace>org.edifree.edifact.main</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\Users\user\edifact</dir>
-      <dir>C:\Users\user\edifact\main\src\main</dir>
-      <dir>C:\Users\user\edifact\lib\d96a</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
   </component>
   <component name="ProjectId" id="1XRIyRbGiCRsSxr6nuwdpcr3R8i" />
   <component name="ProjectViewState">
@@ -85,9 +63,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575543923831" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../rafal.paszkowski/ESB/esb-development" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -175,7 +156,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575538500576</updated>
       <workItem from="1575538503044" duration="4740000" />
-      <workItem from="1581002735601" duration="1718000" />
+      <workItem from="1581002735601" duration="3123000" />
+      <workItem from="1581031669305" duration="168000" />
+      <workItem from="1581031865950" duration="238000" />
     </task>
     <servers />
   </component>
@@ -183,10 +166,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1581031827867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581031827867" />
     <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1581003423634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581003423634" />
+    <state x="440" y="97" key="SettingsEditor" timestamp="1581031815161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581031815161" />
+    <state x="667" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581032000727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581032000727" />
+    <state x="667" y="281" width="585" height="478" key="find.popup" timestamp="1581031436773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="281" width="585" height="478" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581031436773" />
+    <state x="342" y="146" key="new project wizard" timestamp="1581004658594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="146" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581004658594" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,21 +205,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

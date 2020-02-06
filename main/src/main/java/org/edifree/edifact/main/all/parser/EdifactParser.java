@@ -42,6 +42,7 @@ public class EdifactParser {
         Edifact edifact = getEdifact(helper.edifactSyntaxVersion);
         parse(edifact, DataType.UNKNOWN);
         return edifact;
+
     }
 
     private Edifact getEdifact(EdifactSyntaxVersion edifactSyntaxVersion) throws EdifactLibraryException {
