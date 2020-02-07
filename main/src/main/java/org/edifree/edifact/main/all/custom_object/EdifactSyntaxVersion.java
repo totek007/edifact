@@ -5,28 +5,37 @@
  */
 package org.edifree.edifact.main.all.custom_object;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  *
  * @author Rafal Paszkowski
  */
-//@Slf4j
+
+@Slf4j
 public enum EdifactSyntaxVersion {
-    VERSION_30("3"),VERSION_41("4");
+    VERSION_30(new String[]{"1","2","3"}),VERSION_41(new String[]{"4","4.1"});
 
-    String text;
+    private String[] ids;
 
-    private EdifactSyntaxVersion(String text) {
-        this.text = text;
+    EdifactSyntaxVersion(String[] ids) {
+        this.ids = ids;
     }
 
     public static EdifactSyntaxVersion create(String edifactSyntaxVersion){
-        for(EdifactSyntaxVersion e:EdifactSyntaxVersion.values()){
-            if(e.text.equals(edifactSyntaxVersion)){
-                return e;
+
+        for(EdifactSyntaxVersion syntaxVersion:EdifactSyntaxVersion.values()){
+            for(String id:syntaxVersion.getIds()){
+                if(id.equals(edifactSyntaxVersion)){
+                    return syntaxVersion;
+                }
             }
         }
-        //log. TODO !!!!
+        log.warn("Unknown syntax version. Trying get default version (4.1)");
         return VERSION_41;
     }
 
+    private String[] getIds() {
+        return ids;
+    }
 }
